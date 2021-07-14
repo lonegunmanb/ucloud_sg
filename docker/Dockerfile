@@ -5,7 +5,7 @@ ARG BACKEND
 
 WORKDIR /code
 
-RUN git clone https://github.com/lonegunmanb/ucloud_sg.git#$VERSION
+RUN git clone -b $VERSION https://github.com/lonegunmanb/ucloud_sg.git
 
 WORKDIR ucloud_sg
 
